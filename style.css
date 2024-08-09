@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+:root {
+    --purple: #7b61ff;
+    --dark-white: rgb(246, 244, 255);
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: rgb(135, 135, 135);
+}
+
+.back img {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 105vh;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+header {
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    position: relative;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+header ul li a {
+    color: var(--dark-white);
+}
+
+header .profile {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header .profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+header .profile .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header .profile .text span:first-child {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+/* CSS - MAIN 1 - TITLE */
+
+.title {
+    padding: 110px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    justify-content: center;
+}
+
+.title h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.title .btn {
+    padding: 18px 24px;
+    margin-top: 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 1px hidden;
+    color: var(--white);
+    background: var(--purple);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.title .card {
+    padding: 15px 10px 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--white);
+    color: var(--black);
+    margin-top: 150px;
+    width: 79%;
+    border-radius: 12px;
+}
+
+.title .card span {
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.title .card p {
+    font-size: 15px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.title .card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.title .card1 i {
+    font-size: 22px;
+}
+
+.title .card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title .card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.title .card2 i {
+    font-size: 22px;
+}
+
+.title .card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title .card3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.title .card3 i {
+    font-size: 22px;
+}
+
+.title .card-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title .card4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.title .card4 i {
+    font-size: 22px;
+}
+
+.title .card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title .card4 .search {
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    background: var(--purple);
+}
+
+.title .card4 .search i {
+    font-size: 22px;
+}
+
+/* CSS - MAIN 2 - POPULAR DESTINITION */
+
+.destinition {
+    padding: 100px 70px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.destinition h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.destinition .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.destinition .cards .card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.destinition .cards .card1 img {
+    width: 203px;
+    height: 181px;
+    border-radius: 10px;
+}
+
+.destinition .cards .card1 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.destinition .cards .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.destinition .cards .card2 img {
+    width: 203px;
+    height: 181px;
+    border-radius: 10px;
+}
+
+.destinition .cards .card2 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.destinition .cards .card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.destinition .cards .card3 img {
+    width: 203px;
+    height: 181px;
+    border-radius: 10px;
+}
+
+.destinition .cards .card3 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.destinition .cards .card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.destinition .cards .card4 img {
+    width: 203px;
+    height: 181px;
+    border-radius: 10px;
+}
+
+.destinition .cards .card4 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.destinition .cards .card5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.destinition .cards .card5 img {
+    width: 203px;
+    height: 181px;
+    border-radius: 10px;
+}
+
+.destinition .cards .card5 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.destinition .cards .card6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.destinition .cards .card6 img {
+    width: 203px;
+    height: 181px;
+    border-radius: 10px;
+}
+
+.destinition .cards .card6 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.destinition .cards .text h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.destinition .cards .text span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* CSS - MAIN 3 - H/R */
+
+.har {
+    padding: 100px 70px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.har .part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.har .part1 h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 10px 18px 10px 18px;
+    border-radius: 12px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.har .part2 img {
+    width: 320px;
+    height: 380px;
+    border-radius: 12px;
+}
+
+.har .part2 .cards .foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.har .part2 .cards .foot1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.har .part2 .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.har .part2 .cards .text h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.har .part2 .cards .text span {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.har .part2 .cards .card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.har .part2 .cards .card1 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.har .part2 .cards .card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.har .part2 .cards .card2 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.har .part2 .cards .card3 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.har .part2 .cards .card3 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.har .part2 .cards .card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.har .part2 .cards .card4 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+/* CSS - MAIN 4 - ADVISE */
+
+.advise {
+    padding: 100px 70px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.advise .part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.advise .part1 h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.advise .part2 {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.advise .part2 img {
+    width: 320px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+.advise .part2 .card-first {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.advise .part2 .card-last {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.advise .part2 .all-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advise .part2 .all-text .extra {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.advise .part2 .all-text .extra .exr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gray);
+}
+
+.advise .part2 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.advise .part2 .text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    width: 95%;
+}
+
+.advise .part2 .text pre {
+    font-size: 16px;
+    line-height: 30px;
+    width: 80%;
+    color: var(--gray);
+}
+
+/* CSS - MAIN 5 - ACTIVITIES */
+
+.activity {
+    padding: 80px 70px 80px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.activity .part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity .part1 h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.activity .part2 {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.activity .part2 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+}
+
+.activity .part2 h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.activity .part2 .card img {
+    border-radius: 12px;
+    width: 320px;
+    height: 400px;
+}
+
+/* HTML - MAIN 6 - ABOUT US */
+
+.about {
+    padding: 60px 170px 60px 170px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.about .text h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about .text p {
+    line-height: 30px;
+}
+
+.about img {
+    width: 556px;
+    height: 488px;
+    border-radius: 12px;
+}
+
+/* CSS - FOOTER - TOORISM */
+
+.toorism {
+    padding: 120px 0 120px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--gray);
+    background: rgb(249, 249, 249);
+}
+
+.toorism .part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 26%;
+    gap: 22px;
+}
+
+.toorism .part1 p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.toorism .part1 .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    color: var(--purple);
+    font-size: 30px;
+}
+
+.toorism .part2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.toorism .part2 .table {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: var(--gray);
+    line-height: 20px;
+}
+
+.toorism .part2 .table ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.toorism .part2 .table ul li:first-child {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.toorism .part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.toorism .part3 h3 {
+    width: 80%;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.toorism .part3 .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.toorism .part3 .email .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    background: var(--white);
+    border-radius: 12px;
+    padding: 7px 30px 7px 20px;
+}
+
+.toorism .part3 .input i {
+    font-size: 25px;
+}
+
+.toorism .part3 .email .input-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+    gap: 1px;
+}
+
+.toorism .part3 .email .input-text input {
+    outline: none;
+}
+
+.toorism .part3 .btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: var(--purple);
+    font-size: 13.5px;
+}
+
+/* -----------------------HOVER-------------------------- */
+
+header ul li a:hover {
+    color: var(--dark-white);
+}
+
+.title .btn:hover {
+    opacity: 95%;
+}
